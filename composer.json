@@ -12,10 +12,13 @@
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
+        "itsgoingd/clockwork": "^5.1",
         "laravel/framework": "^8.0",
-        "laravel/tinker": "^2.0"
+        "laravel/tinker": "^2.0",
+        "predis/predis": "^2.0"
     },
     "require-dev": {
+        "barryvdh/laravel-debugbar": "^3.7",
         "facade/ignition": "^2.3.6",
         "fzaninotto/faker": "^1.9.1",
         "laravel/sail": "^1.14",

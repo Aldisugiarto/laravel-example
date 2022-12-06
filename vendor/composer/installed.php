@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '009fa1673ad88803043231e520526c69aab18884',
+        'reference' => '5da24dc4a4d4309884012a702b99c45dc18ccbdd',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -18,6 +18,15 @@
             'aliases' => array(),
             'reference' => '73e5b88775c64ccc0b84fb60836b30dc9d92ac4a',
             'dev_requirement' => false,
+        ),
+        'barryvdh/laravel-debugbar' => array(
+            'pretty_version' => 'v3.7.0',
+            'version' => '3.7.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../barryvdh/laravel-debugbar',
+            'aliases' => array(),
+            'reference' => '3372ed65e6d2039d663ed19aa699956f9d346271',
+            'dev_requirement' => true,
         ),
         'brick/math' => array(
             'pretty_version' => '0.9.3',
@@ -388,6 +397,15 @@
                 0 => 'v8.83.16',
             ),
         ),
+        'itsgoingd/clockwork' => array(
+            'pretty_version' => 'v5.1.10',
+            'version' => '5.1.10.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../itsgoingd/clockwork',
+            'aliases' => array(),
+            'reference' => '8ceb38246028483750573c05dc4f9c17ddb65b7b',
+            'dev_requirement' => false,
+        ),
         'kodova/hamcrest-php' => array(
             'dev_requirement' => true,
             'replaced' => array(
@@ -409,7 +427,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '009fa1673ad88803043231e520526c69aab18884',
+            'reference' => '5da24dc4a4d4309884012a702b99c45dc18ccbdd',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -474,6 +492,15 @@
             'aliases' => array(),
             'reference' => 'ff6248ea87a9f116e78edd6002e39e5128a0d4dd',
             'dev_requirement' => false,
+        ),
+        'maximebf/debugbar' => array(
+            'pretty_version' => 'v1.18.1',
+            'version' => '1.18.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../maximebf/debugbar',
+            'aliases' => array(),
+            'reference' => 'ba0af68dd4316834701ecb30a00ce9604ced3ee9',
+            'dev_requirement' => true,
         ),
         'mockery/mockery' => array(
             'pretty_version' => '1.5.0',
@@ -678,6 +705,15 @@
             'aliases' => array(),
             'reference' => '12bc8879fb65aef2138b26fc633cb1e3620cffba',
             'dev_requirement' => true,
+        ),
+        'predis/predis' => array(
+            'pretty_version' => 'v2.0.3',
+            'version' => '2.0.3.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../predis/predis',
+            'aliases' => array(),
+            'reference' => 'ff59f745815150c65ed388f7d64e7660fe961771',
+            'dev_requirement' => false,
         ),
         'psr/container' => array(
             'pretty_version' => '1.1.2',
